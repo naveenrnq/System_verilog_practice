@@ -17,7 +17,7 @@ module tb;
 	begin
 		$display("\n\n\tFactorial from 1 to 5...\n");
 
-		for(int i = 0; i < 6; i++)
+		for(int i = 0; i < 6; i = i + 1)
 		begin
 			// Function calls itself recursively with different 
          		// variable scope for 'int num' each time
